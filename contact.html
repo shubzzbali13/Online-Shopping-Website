@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store - Page not found</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzelfamily=Latodisplay=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+</head>
+<body>
+    
+  <!-- navbar -->
+    <nav class="navbar">
+       <ul class="links-container">
+        <li class="link-item"><a href="index.html" class="link active">Home</a></li>
+        <li class="link-item"><a href="product.html" class="link">Product</a></li>
+        <li class="link-item"><a href="about.html" class="link">About</a></li>
+        <li class="link-item"><a href="contact.html" class="link">Contact</a></li>
+        </ul>
+     <div class="user-interactions">
+       <div class="cart">
+            <img src="img/cart-white.png" class="cart-icon" alt="">
+            <span class="cart-item-count">00</span>
+        </div>
+        <div class="user">
+           <img src="img/user-white.png" class="user-icon" alt="">
+       </div>
+     </div>
+   </nav>
+
+     <header class="four-0-four-section">
+        <div class="content">
+            <h3 class="error">Contact</h3>
+            
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Bharat">Bharat</option>
+      <option value="Australia">Australia</option>
+      <option value="Canada">Canada</option>
+      <option value="Usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+        </div>
+     </header>
+
+</body>
+</html>
